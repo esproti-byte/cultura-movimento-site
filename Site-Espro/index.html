@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cultura em Movimento — Arte, Oficinas e Inclusão. Promovemos eventos culturais que conectam pessoas e territórios.">
+  <title>Cultura em Movimento</title>
+  <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <!--
+      Em vez de texto, usamos a imagem
+      da logo. O atributo "alt" descreve
+      a imagem para leitores de tela.
+    -->
+    <a href="index.html" class="navbar__logo">
+      <img src="assets/images/logo.png" alt="Cultura em Movimento">
+    </a>
+
+    <ul class="navbar__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="assets/pages/sobre.html">Sobre nós</a></li>
+      <li><a href="assets/pages/servicos.html">Serviços</a></li>
+      <li><a href="mailto:contato@culturamovimento.com.br" class="btn-nav">Contato</a></li>
+    </ul>
+
+    <button class="navbar__toggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <!--
+        Blobs: divs sem conteúdo usadas
+        só para criar as manchas de cor
+        decorativas no fundo.
+      -->
+      <div class="hero__blob  hero__blob--1"></div>
+      <div class="hero__blob  hero__blob--2"></div>
+      <div class="hero__blob  hero__blob--3"></div>
+
+      <!-- Pílulas de categorias -->
+      <div class="hero__pilulas">
+        <span class="pilula pilula--laranja">Arte</span>
+        <span class="pilula pilula--amarelo">Oficinas</span>
+        <span class="pilula pilula--azul">Inclusão</span>
+      </div>
+
+      <!-- Logo central em destaque -->
+      <img
+        src="assets/images/logo.png"
+        alt="Cultura em Movimento"
+        class="hero__logo"
+      >
+
+      <p class="hero__subtitulo">
+        Planejamos e realizamos eventos culturais sob medida —
+        do conceito à execução, transformamos ideias em
+        experiências que marcam comunidades.
+      </p>
+
+      <div class="hero__acoes">
+        <a href="assets/pages/servicos.html" class="btn btn--primario">
+          Nossos serviços
+        </a>
+        <a href="assets/pages/sobre.html" class="btn btn--contorno">
+          Quem somos
+        </a>
+      </div>
+    </section>
+
+    <!-- Divisor decorativo -->
+    <div class="divisor">🎭 🎨 📚 🎬 🧩</div>
+
+    <!-- SEÇÃO: O que fazemos -->
+    <section class="secao" id="servicos">
+      <div class="secao__cabecalho">
+        <span class="secao__etiqueta">✦ O que fazemos</span>
+        <h2 class="secao__titulo">
+          Eventos que <em>marcam</em><br>quem participa
+        </h2>
+      </div>
+
+      <div class="cards-grade">
+
+        <article class="card" style="--card-cor: #f4732a;">
+          <span class="card__icone">🎭</span>
+          <h3 class="card__titulo">Shows & Espetáculos</h3>
+          <p class="card__texto">
+            Produção completa de shows musicais, peças teatrais e
+            performances artísticas para instituições, prefeituras
+            e empresas de todos os portes.
+          </p>
+        </article>
+
+        <article class="card" style="--card-cor: #f5c200;">
+          <span class="card__icone">🎨</span>
+          <h3 class="card__titulo">Oficinas & Workshops</h3>
+          <p class="card__texto">
+            Atividades práticas de arte, música, dança e teatro
+            que desenvolvem habilidades e fortalecem vínculos
+            dentro das comunidades.
+          </p>
+        </article>
+
+        <article class="card" style="--card-cor: #3ab5e6;">
+          <span class="card__icone">🧩</span>
+          <h3 class="card__titulo">Eventos Inclusivos</h3>
+          <p class="card__texto">
+            Programação acessível e diversa, pensada para acolher
+            todos os públicos e promover a inclusão social
+            através da cultura.
+          </p>
+        </article>
+
+        <article class="card" style="--card-cor: #7c4dbb;">
+          <span class="card__icone">🎬</span>
+          <h3 class="card__titulo">Mostras & Feiras</h3>
+          <p class="card__texto">
+            Organização de feiras de arte, cinema, literatura e
+            gastronomia que valorizam produtores locais e
+            movimentam a economia criativa.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- BANNER CTA -->
+    <div class="banner-cta-wrap">
+      <div class="banner-cta">
+        <div>
+          <h2>Tem um evento em mente?</h2>
+          <p>Fale com a nossa equipe e vamos construir algo incrível juntos.</p>
+        </div>
+        <a href="mailto:contato@culturamovimento.com.br" class="btn btn--claro">
+          Entrar em contato
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="index.html" class="footer__logo">
+      <img src="assets/images/logo.png" alt="Cultura em Movimento">
+    </a>
+    <p class="footer__copy">© 2025 Cultura em Movimento. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="assets/script/script.js"></script>
+
+</body>
+</html>
